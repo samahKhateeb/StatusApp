@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginStart="3dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginEnd="3dp"
+    android:layout_marginBottom="3dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgStatusImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="#ffffff"
+            android:backgroundTint="#ff00ff"
+            android:scaleType="fitXY"
+            android:src="@drawable/test" />
+
+        <TextView
+            android:id="@+id/tvStatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="This is a Sample Text Status"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/senderImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tvStatusText"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="end|center_vertical"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/senderName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvStatusText"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="-0dp"
+            android:gravity="center"
+            android:text="User Name"
+            android:textColor="@color/teal_200" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
